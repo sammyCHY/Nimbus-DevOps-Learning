@@ -2,12 +2,7 @@
 
 ## Project Architecture.
 
-
-
-
-
-
-
+![The Image here shows the architectural diagram of Azure fundamental](image/azure-fundamental-architecture.png)
 
 ****************************************
 
