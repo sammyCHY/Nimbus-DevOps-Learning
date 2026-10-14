@@ -185,9 +185,47 @@ find restore — searches inside the restore directory.
 
 16. Create a symbolic link in `linux-Essentials-for-DevOps` that points to the `restore` directory.
 
+Run the command below:
+
+`ln -s restore restore_link`
+
+The command creates symbolic link named restore link named `restore_link` that point to restore directory.
+
+![The Image shows the creation of restore link](image/restore-link.png)
 
 17. Find all files modified in the last 7 days in `linux-Essentials-for-DevOps` and its subdirectories.
 
+Run the command below:
+
+`find . -type f -mtime -7`
+
+which means `find .`  find **files only** not directories.
+
+`-mtime -7`
+
+- Find files modifies within the last 7 x 24 hours.
+
+This will produce all the image below.
+
+![The Image shows the find command](image/find-files.png)
 
 18. Search for the string "Hello World" in all `.txt` files inside `linux-Essentials-for-DevOps` and its
 subdirectories.
+
+Run the command below:
+
+`grep -Rnl --include="*.txt" "Hello World" .`
+
+- `grep`: search for txt inside files.
+
+- `-R` : Searches recursively, meaning the current directory and all its subdirectories.
+
+- `-n` : Shows the **line number** where the txt is found.
+
+- -l : Shows only the file names that contain the text.
+
+`--include="*.txt"`
+
+`"Hello world!"` : The exact string we're looking for.
+
+![The Image shows the .txt files ](image/string-hello-world.png)
