@@ -73,7 +73,7 @@ Run the command below:
 
 `mv nested_directory/file_a.txt nested_directory/file_b.txt .`
 
-![The Image shows the nested directory file move back to .](image/nested_directory_file.png)
+![The Image shows the nested directory file move back to](image/nested_directory_files.png)
 
 
 9. Return to "Linux-Essentials/Present working directory" and create a `.hidden_file.`
