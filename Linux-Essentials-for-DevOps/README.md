@@ -116,7 +116,7 @@ Let me break it down.
 - `tar`  archive utility
 - `-c`   Create a new archive
 - `-v`   Verbose, show files being archived
-- `-f`   specify the archive fileman
+- `-f`   specify the archive filename
 - `backup/archive.tar`
 - . archive everything in the current directory.
 
