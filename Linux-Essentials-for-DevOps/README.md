@@ -199,7 +199,7 @@ Run the command below:
 
 `ln -s restore restore_link`
 
-The command creates symbolic link named restore link named `restore_link` that point to restore directory.
+The command creates symbolic link named `restore_link` that point to restore directory.
 
 ![The Image shows the creation of restore link](image/restore-link.png)
 
