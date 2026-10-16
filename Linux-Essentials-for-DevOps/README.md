@@ -85,8 +85,18 @@ run: `touch .hidden_file`
 
 10. List all files (including hidden ones) in "present_working_directory" with human-readable file sizes.
 
+`ls -lah`
+
+`ls`      list files and directories
+
+`-l`      list detailed information
+
+`-a`      show all files, including hidden files.
+
+`-h`      show file sizes human-readable format.
 
 ![The Image shows all the files including hidden ones](image/list-files-hidden.png)
+
 
 11. Create a new directory "backup" and archive("tar") all files in "Linux-Essential-for DevOps" (including hidden files) into "backup/archive.tar".
 
