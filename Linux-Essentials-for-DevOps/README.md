@@ -90,10 +90,10 @@ run: `touch .hidden_file`
 
 11. Create a new directory "backup" and archive("tar") all files in "Linux-Essential-for DevOps" (including hidden files) into "backup/archive.tar".
 
-1. Create a directory called `backup`.
-2. Take everything inside `Linux-Essentials-for DevOps`, including hidden files.
-3. Put all of it into a TAR archive called `archive.tar`.
-4. Store that archive inside `backup`.
+- Create a directory called `backup`.
+- Take everything inside `Linux-Essentials-for DevOps`, including hidden files.
+- Put all of it into a TAR archive called `archive.tar`.
+- Store that archive inside `backup`.
 
 Run:
 
